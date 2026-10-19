@@ -4,7 +4,7 @@ A self-contained [ESP32](https://www.espressif.com/en/products/socs/esp32) acces
 
 ## Features
 
-- Custom landing page ("ESP32 Relapse Exploit - by leafunes") with two actions:
+- Custom landing page with two actions:
   - **Run exploit** — runs the Relapse exploit chain (WebKit → kernel → `elfldr` listening on port 9021).
   - **Load payloads** — sends a tiny [usb-payload-browser](https://github.com/leafunes/ps5-usb-payload-browser) payload to the PS5 and opens its web UI to browse and load `.elf` payloads from a USB drive.
 - WiFi access point (`PS5-Relapse`) + DNS captive portal (every DNS query resolves to the ESP32).
